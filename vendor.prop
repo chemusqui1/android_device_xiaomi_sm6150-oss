@@ -95,6 +95,9 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
+# Display
+vendor.display.disable_rotator_downscale=1
+
 # Display post-processing
 ro.vendor.display.sensortype=2
 
