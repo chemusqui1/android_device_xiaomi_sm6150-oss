@@ -131,6 +131,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+# Dex
+PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+
 # Display/Graphics
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-service \
