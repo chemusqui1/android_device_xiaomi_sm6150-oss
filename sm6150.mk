@@ -69,6 +69,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
 
+# ART
+ART_BUILD_TARGET_DEBUG := false
+ART_BUILD_HOST_DEBUG := false
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.effect@6.0-impl \
@@ -133,6 +138,7 @@ PRODUCT_PACKAGES += \
 
 # Dex
 PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
 # Display/Graphics
 PRODUCT_PACKAGES += \
