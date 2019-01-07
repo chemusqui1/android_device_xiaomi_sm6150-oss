@@ -318,6 +318,7 @@ PRODUCT_PACKAGES += \
     init.mi.usb.sh \
     init.power.rc \
     init.qcom.rc \
+    init.qcom.early_boot.sh \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
