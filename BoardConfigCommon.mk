@@ -55,7 +55,7 @@ BOARD_KERNEL_CMDLINE += earlycon=msm_geni_serial,0x880000
 BOARD_KERNEL_CMDLINE += loop.max_part=7
 BOARD_KERNEL_CMDLINE += androidboot.vbmeta.avb_version=1.0
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
-BOARD_KERNEL_CMDLINE += kpti=off
+BOARD_KERNEL_CMDLINE += kpti=off cgroup.memory=nokmem,nosocket
 
 # Platform
 TARGET_BOARD_PLATFORM := sm6150
