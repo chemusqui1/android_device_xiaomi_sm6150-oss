@@ -109,6 +109,7 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 dalvik.vm.dex2oat64.enabled=true
 
 # Display
+debug.cpurend.vsync=false
 vendor.display.disable_rotator_downscale=1
 
 # Display post-processing
