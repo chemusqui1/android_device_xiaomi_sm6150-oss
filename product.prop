@@ -48,6 +48,7 @@ ro.surface_flinger.wcg_composition_dataspace=143261696
 
 # IORap
 iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
 
 # Incremental FS
 ro.incremental.enable=1
