@@ -221,6 +221,10 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl-qti:64 \
     android.hardware.health@2.1-service
 
+# Handheld hardware
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
+
 # IFAA manager
 PRODUCT_PACKAGES += \
     IFAAService \
