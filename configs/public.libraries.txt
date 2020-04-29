@@ -45,3 +45,5 @@ libst_sr_models.so
 libhvx_interface.so
 lib_denoiser3.so
 libxml2_vendor.so
+libprotobuf-cpp-full.so
+libprotobuf-cpp-lite.so
