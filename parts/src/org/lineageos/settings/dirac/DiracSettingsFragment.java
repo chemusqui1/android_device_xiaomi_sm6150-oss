@@ -33,6 +33,7 @@ import androidx.preference.PreferenceFragment;
 import androidx.preference.SwitchPreference;
 
 import org.lineageos.settings.R;
+import org.lineageos.settings.speaker.ClearSpeakerActivity;
 
 public class DiracSettingsFragment extends PreferenceFragment implements
         OnPreferenceChangeListener, CompoundButton.OnCheckedChangeListener {
@@ -40,6 +41,7 @@ public class DiracSettingsFragment extends PreferenceFragment implements
     private static final String PREF_HEADSET = "dirac_headset_pref";
     private static final String PREF_HIFI = "dirac_hifi_pref";
     private static final String PREF_PRESET = "dirac_preset_pref";
+    private static final String PREF_CLEAR_SPEAKER = "clear_speaker_settings";
 
     private TextView mTextView;
     private View mSwitchBar;
@@ -47,6 +49,7 @@ public class DiracSettingsFragment extends PreferenceFragment implements
     private ListPreference mHeadsetType;
     private ListPreference mPreset;
     private SwitchPreference mHifi;
+    private Preference mClearSpeakerPref;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -69,6 +72,13 @@ public class DiracSettingsFragment extends PreferenceFragment implements
         boolean hifiEnable = DiracUtils.getHifiMode();
         mHeadsetType.setEnabled(!hifiEnable && enhancerEnabled);
         mPreset.setEnabled(!hifiEnable && enhancerEnabled);
+        
+        mClearSpeakerPref = (Preference) findPreference(PREF_CLEAR_SPEAKER);
+        mClearSpeakerPref.setOnPreferenceClickListener(preference -> {
+            Intent intent = new Intent(getActivity().getApplicationContext(), ClearSpeakerActivity.class);
+            startActivity(intent);
+            return true;
+        });
     }
 
     @Override
