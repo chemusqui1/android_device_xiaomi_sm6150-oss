@@ -20,6 +20,7 @@ cc_binary {
     vintf_fragments: ["vendor.lineage.livedisplay@2.1-service.xiaomi_sm6150.xml"],
     relative_install_path: "hw",
     srcs: [
+        ":vendor.lineage.livedisplay@2.0-sdm-pa",
         ":vendor.lineage.livedisplay@2.0-sdm-utils",
         "SunlightEnhancement.cpp",
         "service.cpp",
