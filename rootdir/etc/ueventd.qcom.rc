@@ -448,3 +448,9 @@ firmware_directories /vendor/firmware_mnt/image/ /vendor/firmware/
 # Motor
 /dev/akm09970             0660   system       camera
 /dev/drv8846_dev          0660   system       camera
+
+# MiUS
+/dev/iio:device*                                                           0660   system  system
+/sys/devices/platform/us_prox.0/iio:device* buffer/enable                  0600   system  system
+/sys/devices/platform/us_prox.0/iio:device* scan_elements/in_proximity_en  0600   system  system
+/sys/devices/platform/us_prox.0/iio:device* scan_elements/in_timestamp_en  0600   system  system
