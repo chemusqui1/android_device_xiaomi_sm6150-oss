@@ -130,7 +130,7 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     libgui_vendor \
     libxml2 \
-    Snap
+    GCamGo
 
 # CNE
 PRODUCT_PACKAGES += \
