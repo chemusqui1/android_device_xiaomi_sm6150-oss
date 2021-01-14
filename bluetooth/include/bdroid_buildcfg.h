@@ -48,6 +48,8 @@ static const device_t devices[] = {
     {"davinciin", "INDIA", "Xiaomi Redmi K20"},
     {"phoenix", "ALL", "Redmi K30"},
     {"phoenixin", "INDIA", "POCO X2"},
+    {"tucana", "CN", "MI CC9 Pro"},
+    {"tucana", "GLOBAL", "Xiaomi Mi Note 10"},
     {"violet", "ALL", "Xiaomi Redmi Note 7 Pro"},
 };
 
