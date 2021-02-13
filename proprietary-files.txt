@@ -465,7 +465,6 @@ vendor/lib64/libqcbor.so|df6a3f00d7d49e482e0ca2937f5bd708fba32ae6
 vendor/lib64/libqtikeymaster4.so|69018deb5c3025f5641e1adaf452cc0687ed11ba
 
 # Listen
-vendor/lib/hw/sound_trigger.primary.sm6150.so
 vendor/lib/librice.so
 
 # Listen - from LA.UM.9.1.r1-09600-SMxxx0.0
