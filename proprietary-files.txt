@@ -22,9 +22,7 @@ vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
 
 # ADSP Modules
-vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
-vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
 vendor/lib/rfsa/adsp/dirac_resource.dar
 vendor/lib/rfsa/adsp/libdirac-capiv2.so
 vendor/lib/rfsa/adsp/libVC1Dec.so
@@ -79,6 +77,12 @@ vendor/lib/soundfx/libshoebox.so
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libdirac.so
 vendor/lib64/soundfx/libshoebox.so
+
+# AptX - from coral-user-11-RQ1A.210205.004-7038034-release-keys
+vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|59cbdf5d84ba2ff64014941f3ad9e6c2c35e2c06
+vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|e25f1087edc95d2ff76c1e37787ca37aae2cf175
+system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
 # Bluetooth - from LA.UM.9.1.r1-07300-SMxxx0.0
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|275aeb202001803c6bd6d632bf7958c8775468ad
