@@ -318,10 +318,16 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.1 \
     android.hardware.radio@1.5 \
     android.hardware.secure_element@1.1 \
+	libril \
+    librilutils \
     libjson \
     libprotobuf-cpp-full \
     librmnetctl \
     libxml2
+	
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-lite-vendorcompat \
+    libprotobuf-cpp-full-vendorcompat \
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
