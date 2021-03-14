@@ -245,9 +245,9 @@ vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
 # DRM - Widevine -L1 - from DAVINCIGLOBAL
-vendor/lib64/libhdcpsrm.so
+vendor/lib64/libhdcpsrm.so|b8a39941e5071790c31435fe1a0d03030c63fd78
 vendor/lib64/liboemcrypto.so|2cee717b25559030a61709e826b4a5dae6043c20
-vendor/lib64/libwvhidl.so
+vendor/lib64/libwvhidl.so|2abdbc8966795ed903062ec1a8ba2e79bb5883f8
 
 # Firmware
 vendor/firmware/a615_zap.b00
@@ -356,8 +356,8 @@ vendor/lib/libgpudataproducer.so
 vendor/lib/libgsl.so
 vendor/lib/libllvm-glnext.so
 
-# Graphics (DRM)
-vendor/lib64/libsdedrm.so
+# Graphics (DRM - Kang) - from nubia/NX627J/NX627J:11/RKQ1.200826.002/nubia.20201029.204053:user/release-keys
+vendor/lib64/libsdedrm.so|582910d21139781ad9e414c35207584f51e035e2
 
 # Graphics (HDR)
 vendor/lib64/libhdr_tm.so
