@@ -149,6 +149,10 @@ vendor.display.enable_optimize_refresh=1
 vendor.display.qdcm.mode_combine=1
 vendor.gralloc.disable_ubwc=0
 
+# IOP
+vendor.iop.enable_prefetch_ofr=0
+vendor.iop.enable_uxe=0
+
 # Keystore
 ro.hardware.keystore_desede=true
 
@@ -156,6 +160,9 @@ ro.hardware.keystore_desede=true
 audio.offload.video=true
 debug.stagefright.omx_default_rank=0
 vendor.media.target.version=2
+
+# Memory optimizations
+ro.vendor.qti.sys.fw.bservice_enable=true
 
 # Netmgr
 persist.vendor.data.iwlan.enable=true
@@ -171,6 +178,9 @@ persist.vendor.cp.taper_term_mv=6500
 persist.vendor.qg_cld_coff_gain=1.5
 persist.vendor.qg_coff_gain=1
 persist.vendor.qg_cold_temp=-150
+
+# Quick Charge
+persist.vendor.quick.charge=1
 
 # RCS
 persist.rcs.supported=0
