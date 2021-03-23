@@ -370,14 +370,16 @@ vendor/lib64/libsdedrm.so|499fda5345019fdd2fc305fd70ff81f17acb7f2c
 # Graphics (HDR) - from LA.UM.9.1.r1-07300-SMxxx0.0
 vendor/lib64/libhdr_tm.so|e4638c3bf21685b84650c5858bafe384ab2118ff
 
-# Graphics (SDM)
-vendor/lib64/libqseed3.so
-vendor/lib64/libsdm-color.so
-vendor/lib64/libsdm-colormgr-algo.so
-vendor/lib64/libsdm-diag.so
-vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmextension.so
-vendor/lib64/libtinyxml2_1.so
+# Graphics (SDM) - from LA.UM.9.1.r1-07300-SMxxx0.0
+vendor/lib64/libdisp-aba.so|b7c8567c3079372479c85834ba1aab4e2eee5522
+vendor/lib64/libdisplayqos.so|13aa5350813e6b3b619ba26a4854e512302e2d97
+vendor/lib64/libqseed3.so|1395834daf3c6cd07acbdbc44110decb3be362c2
+vendor/lib64/libsdm-color.so|9a5a5f27481ef8c29624dc18819442ec2764726e
+vendor/lib64/libsdm-colormgr-algo.so|11b65733d87ff65633a5fe8f4207dde12391625c
+vendor/lib64/libsdm-diag.so|55dafc05ba68666f10412a534f7122d7f45bf403
+vendor/lib64/libsdm-disp-vndapis.so|9ab6725a5efba29b77d1d6ab33e10e3ff3296960
+vendor/lib64/libsdmextension.so|37b50b7865770f4f4ad9540b9fe2b73da554ecae
+vendor/lib64/libtinyxml2_1.so|92101861d95cbdf9625d192d0b2295baa5960b68
 
 # Keystore
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
@@ -456,9 +458,7 @@ vendor/lib64/libperipheral_client.so
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/ppd
 vendor/etc/init/vendor.display.color@1.0-service.rc
-vendor/lib64/libdisp-aba.so
 vendor/lib64/libdpps.so
-vendor/lib64/libdisplayqos.so
 vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/vendor.display.color@1.1.so
 vendor/lib64/vendor.display.color@1.2.so
