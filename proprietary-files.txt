@@ -381,6 +381,10 @@ vendor/lib64/libsdm-disp-vndapis.so|9ab6725a5efba29b77d1d6ab33e10e3ff3296960
 vendor/lib64/libsdmextension.so|37b50b7865770f4f4ad9540b9fe2b73da554ecae
 vendor/lib64/libtinyxml2_1.so|92101861d95cbdf9625d192d0b2295baa5960b68
 
+# Graphics (Vulkan) - from LA.UM.9.1.r1-08600-SMxxx0.0
+vendor/lib64/hw/vulkan.adreno.so|a8a506bd69f8b9f7e2276a6d10ec610c5c006db4
+vendor/lib/hw/vulkan.adreno.so|3f45f46e181f6d1b6383a8b5e2b2c9464305ee6d
+
 # Keystore
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
