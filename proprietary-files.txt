@@ -180,10 +180,10 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|01256a945becaa88788c384a70a15fe
 vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so|e039cd57df22cd762f7054b0f2ffe8ce50fade1f
 vendor/lib64/vendor.qti.latency@2.0.so|c4de1ba004bd8d07dbe92f58abb6250c7bbaf968
 
-# ConfigStore
-vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
-vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
-vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
+# ConfigStore - from LA.UM.9.1.r1-07300-SMxxx0.0
+vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|8a64779e1a5df5153f10871cf23c65c3f7f94ae7
+vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede0250585a44b01d351bbc301d7a13cc3d783d
+vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|eb1a99915765fca7add8de87d7c4ef9bf031e155
 
 # DPM
 framework/tcmclient.jar
