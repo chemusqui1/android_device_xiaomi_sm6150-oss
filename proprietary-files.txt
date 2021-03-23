@@ -367,8 +367,8 @@ vendor/lib/libpvr.so|b4a2d6cc8fbefb16c9c2e0737090d578f8fccb74
 # Graphics (DRM) - from LA.UM.9.1.r1-07300-SMxxx0.0
 vendor/lib64/libsdedrm.so|499fda5345019fdd2fc305fd70ff81f17acb7f2c
 
-# Graphics (HDR)
-vendor/lib64/libhdr_tm.so
+# Graphics (HDR) - from LA.UM.9.1.r1-07300-SMxxx0.0
+vendor/lib64/libhdr_tm.so|e4638c3bf21685b84650c5858bafe384ab2118ff
 
 # Graphics (SDM)
 vendor/lib64/libqseed3.so
