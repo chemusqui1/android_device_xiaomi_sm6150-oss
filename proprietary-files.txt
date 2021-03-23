@@ -364,8 +364,8 @@ vendor/lib/libllvm-glnext.so|a2d17c4f22bca942375bc4ffbb66ab49f6414766
 vendor/lib/libllvm-qcom.so|394b9415204debcd431951cc56a3050d543a0eae
 vendor/lib/libpvr.so|b4a2d6cc8fbefb16c9c2e0737090d578f8fccb74
 
-# Graphics (DRM - Kang) - from nubia/NX627J/NX627J:11/RKQ1.200826.002/nubia.20201029.204053:user/release-keys
-vendor/lib64/libsdedrm.so|582910d21139781ad9e414c35207584f51e035e2
+# Graphics (DRM) - from LA.UM.9.1.r1-07300-SMxxx0.0
+vendor/lib64/libsdedrm.so|499fda5345019fdd2fc305fd70ff81f17acb7f2c
 
 # Graphics (HDR)
 vendor/lib64/libhdr_tm.so
