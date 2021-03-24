@@ -61,3 +61,6 @@
 
 # Touchfeature
 /dev/xiaomi-touch          u:object_r:touchfeature_device:s0
+
+# WiFi
+/vendor/bin/wifi-mac-generator                                u:object_r:wifi-mac-generator_exec:s0
