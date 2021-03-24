@@ -212,3 +212,6 @@ persist.dbg.wfc_avail_ovr=1
 
 # Use Vulkan as Skia UI rendering interface
 debug.sf.renderer=skiavk
+
+# Mitigate screen lag while recording
+debug.sdm.supports_writeback=0
