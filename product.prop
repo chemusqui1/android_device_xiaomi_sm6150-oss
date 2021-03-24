@@ -89,8 +89,8 @@ ro.config.hw_power_saving=1
 # Time
 persist.vendor.delta_time.enable=true
 
-# Use OpenGL backend for Skia UI rendering
-debug.hwui.renderer=skiagl
+# Use Vulkan for Skia UI rendering
+debug.hwui.renderer=skiavk
 
 # Wireless display
 persist.debug.wfd.enable=1
