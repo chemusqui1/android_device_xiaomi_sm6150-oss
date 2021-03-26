@@ -75,10 +75,10 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio.effect@6.0-impl:32 \
+    android.hardware.audio.effect@6.0-impl \
     android.hardware.audio@2.0-service \
-    android.hardware.audio@6.0-impl:32 \
-    android.hardware.soundtrigger@2.2-impl:32 \
+    android.hardware.audio@6.0-impl \
+    android.hardware.soundtrigger@2.2-impl \
     audio.a2dp.default \
     audio.primary.sm6150:32 \
     audio.r_submix.default \
