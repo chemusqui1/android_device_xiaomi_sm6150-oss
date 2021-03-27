@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vendor.lineage.livedisplay@2.0-service.xiaomi_sm6150"
+#define LOG_TAG "vendor.lineage.livedisplay@2.1-service.xiaomi_sm6150"
 
 #include <android-base/logging.h>
 #include <binder/ProcessState.h>
@@ -22,14 +22,15 @@
 
 #include "SunlightEnhancement.h"
 #include "livedisplay/sdm/SDMController.h"
+#include <vendor/lineage/livedisplay/2.1/IPictureAdjustment.h>
 
 using android::OK;
 using android::sp;
 using android::status_t;
 
-using ::vendor::lineage::livedisplay::V2_0::ISunlightEnhancement;
-using ::vendor::lineage::livedisplay::V2_0::implementation::SunlightEnhancement;
-using ::vendor::lineage::livedisplay::V2_0::sdm::SDMController;
+using ::vendor::lineage::livedisplay::V2_1::ISunlightEnhancement;
+using ::vendor::lineage::livedisplay::V2_1::implementation::SunlightEnhancement;
+using ::vendor::lineage::livedisplay::V2_1::sdm::SDMController;
 
 int main() {
     status_t status = OK;
