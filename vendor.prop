@@ -171,6 +171,7 @@ ro.vendor.use_data_netmgrd=true
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.perf.scroll_opt=true
 
 # Power
 persist.vendor.cp.support_qc3p5=0
