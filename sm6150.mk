@@ -404,6 +404,8 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
+    libavservices_minijail \
+    libavservices_minijail.vendor \
     libdisplayconfig.vendor \
     libdisplayconfig.qti \
     libnl \
