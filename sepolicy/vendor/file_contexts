@@ -1,3 +1,6 @@
+# Battery secret
+/vendor/bin/batterysecret                                                                              u:object_r:batterysecret_exec:s0
+
 # Camera
 /dev/akm09970                   u:object_r:hall_device:s0
 /dev/drv8846_dev                u:object_r:motor_device:s0
@@ -55,6 +58,9 @@
 
 # Sockets
 /dev/socket/audio_hw_socket                   u:object_r:audio_socket:s0
+
+# Persist subsystem
+/mnt/vendor/persist/subsys(/.*)?                                                                       u:object_r:persist_subsys_file:s0
 
 # SSR
 /sys/devices(/platform)?/soc/[a-z0-9\.:]+,[a-z0-9\-\_]+/subsys[0-9]+/name         u:object_r:sysfs_ssr:s0
