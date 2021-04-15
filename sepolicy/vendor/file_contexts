@@ -67,4 +67,6 @@
 /dev/xiaomi-touch          u:object_r:touchfeature_device:s0
 
 # WiFi
+/data/vendor/mac_addr/wlan_mac\.bin                           u:object_r:mnt_vendor_file:s0
+/mnt/vendor/persist/wlan_mac\.bin                             u:object_r:mnt_vendor_file:s0
 /vendor/bin/wifi-mac-generator                                u:object_r:wifi-mac-generator_exec:s0
