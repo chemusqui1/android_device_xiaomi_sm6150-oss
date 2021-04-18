@@ -35,7 +35,6 @@
 /vendor/bin/hw/vendor\.lineage\.biometrics\.fingerprint\.inscreen@1.0-service\.xiaomi_sm6150            u:object_r:hal_lineage_fod_sm6150_exec:s0
 /vendor/bin/hw/vendor\.lineage\.livedisplay@2\.0-service\.xiaomi_sm6150                                 u:object_r:hal_lineage_livedisplay_qti_exec:s0
 /vendor/bin/hw/vendor\.xiaomi\.hardware\.motor@1.0-service                                              u:object_r:hal_motor_default_exec:s0
-/vendor/bin/hw/vendor\.xiaomi\.hardware\.touchfeature@1\.0-service                                      u:object_r:hal_touchfeature_default_exec:s0
 
 # Health
 /sys/devices/platform/soc/soc:maxim_ds28e16/power_supply/batt_verify/(/.*)?                                                                         u:object_r:sysfs_battery_supply:s0
@@ -62,9 +61,6 @@
 
 # Thermal
 /vendor/bin/mi_thermald         u:object_r:mi_thermald_exec:s0
-
-# Touchfeature
-/dev/xiaomi-touch          u:object_r:touchfeature_device:s0
 
 # WiFi
 /data/vendor/mac_addr/wlan_mac\.bin                           u:object_r:mnt_vendor_file:s0
