@@ -9,12 +9,13 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.xiaomi.hardware.touchfeature</name>
+        <name>vendor.xiaomi.hardware.fingerprintextension</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
-            <name>ITouchFeature</name>
+            <name>IXiaomiFingerprint</name>
             <instance>default</instance>
         </interface>
+        <fqname>@1.0::IXiaomiFingerprint/default</fqname>
     </hal>
 </manifest>
