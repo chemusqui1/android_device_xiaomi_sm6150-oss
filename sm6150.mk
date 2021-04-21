@@ -323,7 +323,6 @@ PRODUCT_PACKAGES += \
     fstab.default \
     fstab.emmc \
     init.insmod.sh \
-    init.mi.usb.sh \
     init.power.rc \
     init.qcom.rc \
     init.qcom.early_boot.sh \
