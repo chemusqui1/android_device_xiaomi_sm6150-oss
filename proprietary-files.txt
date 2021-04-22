@@ -353,16 +353,6 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 
-# Graphics (Adreno) - from LA.UM.9.1.r1-08600-SMxxx0.0
-vendor/lib64/libVkLayer_q3dtools.so|440a16f4d229aa73845bdfe817beea351fc64662
-vendor/lib64/libadreno_app_profiles.so|bb2057ce4987043a0b188b0f8e2c094fcd3b4e4f
-vendor/lib64/libgpudataproducer.so|8a7abfa71fb51eeb756f7b4659d24ce22e25feb1
-vendor/lib64/libpvr.so|fe9253727d3e7f53cbce2f6a530379233c5ac6f2
-vendor/lib/libVkLayer_q3dtools.so|f2578e14cfdb5cca22d3c243a5025543e3c6bbc2
-vendor/lib/libadreno_app_profiles.so|461424d6697cd481e9cf990db2c5c1a9d88d728a
-vendor/lib/libgpudataproducer.so|c5b4b8b115220c01716492228b1d78971c030021
-vendor/lib/libpvr.so|b4a2d6cc8fbefb16c9c2e0737090d578f8fccb74
-
 # Graphics (Adreno) - from LA.UM.9.1.r1-09100-SMxxx0.0
 vendor/lib64/egl/eglSubDriverAndroid.so|d48512c209f63be3a2940855d79d4d773b45713b
 vendor/lib64/egl/libEGL_adreno.so|8f3435dbecb22fd3217698ebbd9b002ad2420576
