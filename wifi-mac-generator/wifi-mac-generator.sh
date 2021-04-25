@@ -47,7 +47,7 @@ if [ ! -f "${WLAN_MAC_PERSIST_PATH}" ]; then
     first_mac=$(printf "%012X" "$dec_mac")
 
     # Increment the decimal mac by one
-    dec_mac=$(echo "$dec_mac + 1" | bc)
+    dec_mac=$(expr $dec_mac + 1 )
 
     # The MAC of the first interface is the decimal mac
     # plus one, converted to uppercase
