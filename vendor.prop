@@ -100,6 +100,8 @@ vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
 camera.disable_zsl_mode=1
+log.tag.CHIUSECASE=ERROR
+persist.vendor.camera.logInfoMask=false
 
 # Crypto
 ro.crypto.allow_encrypt_override=true
