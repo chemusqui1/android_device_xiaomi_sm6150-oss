@@ -772,27 +772,6 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|123721dec1435e0228594ff83c44402
 vendor/bin/cnss-daemon
 vendor/bin/nv_mac
 
-# Wifi Display
-system_ext/etc/wfdconfigsink.xml
-system_ext/etc/seccomp_policy/wfdservice.policy
-system_ext/lib/com.qualcomm.qti.wifidisplayhal@1.0.so
-system_ext/lib/libwfdaac.so
-system_ext/lib/libwfdavenhancements.so
-system_ext/lib/libwfdconfigutils.so
-system_ext/lib/libwfddisplayconfig.so
-system_ext/lib/libwfdmmsrc_system.so
-system_ext/lib/libwfdnative.so
-system_ext/lib/libwfdservice.so
-system_ext/lib64/libwfdconfigutils.so
-system_ext/lib64/libwfddisplayconfig.so
-system_ext/lib64/libwfdnative.so
--system_ext/priv-app/WfdService/WfdService.apk
-vendor/lib/libhdcp1prov.so
-vendor/lib/libhdcp2p2prov.so
-vendor/lib/libhdcpsrm.so
-vendor/lib/libmmosal.so
-vendor/lib/libmm-hdcpmgr.so
-
 # WiFi Display - from LA.UM.9.1.r1-09100-SMxxx0.0
 -framework/WfdCommon.jar|de1adc7a4adbb117123aa5bb116c5df83c686433
 system_ext/bin/wfdservice|91f6e2d58de9354a694d3b3da6e6d224dd7e47c1
