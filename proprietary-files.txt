@@ -38,13 +38,13 @@ vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
 vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 
-# Alarm
--product/app/PowerOffAlarm/PowerOffAlarm.apk
-vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
-vendor/bin/power_off_alarm
-vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
-vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so
+# Alarm - from LA.UM.9.1.r1-09100-SMxxx0.0
+-product/app/PowerOffAlarm/PowerOffAlarm.apk|bc906abd03e4a243201dde626b6580fd8a4f73ce
+vendor/bin/power_off_alarm|14327a8fc19abba22de8744e75a497f21b62c932
+vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|d746bcfcfbf809142c08c1687cb8836b4407bcf2
+vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6ffb466e23a7fc3b05
+vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|76b9638aa4be3e0552fd412755d092b35fe64078
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so|2ad5ee0df5a51449d8573d229317f108d9aa0ac7
 
 # ANT+
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
