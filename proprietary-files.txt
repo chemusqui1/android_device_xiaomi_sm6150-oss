@@ -875,3 +875,20 @@ vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so|044c6cfd4bc603
 vendor/lib64/libmiracast.so|44d81d228be14e819754532f59a884d890cf6d4e
 vendor/lib64/libwfddisplayconfig_proprietary.so|7291d503eeb9e680621dc63acf4ad69500fac0cf
 vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so|8c6a5c79f8f15db6f8f4123cba7079c98ba10b95
+
+# WiFi Display - HDCP - from LA.UM.9.1.r1-09100-SMxxx0.0
+vendor/bin/wfdhdcphalservice|c7a2d70190d8a90a8ed326af0add5cf7c99d1ab6
+vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc|c266f08783a17f6583e3f22c85e55b0c200442ea
+vendor/etc/seccomp_policy/wfdhdcphalservice.policy|a489ab323be4be2df3de9f84a6b5e6cef924f4c4
+vendor/lib/libhdcp1prov.so|49b24a12ab86faea66606c5e92d3bf0029a593e5
+vendor/lib/libhdcp2p2prov.so|f0dc959e62ac3861c9e2ce9b3e76e07058488e4e
+vendor/lib/libhdcpsrm.so|0452581254e31898527c866865d1472067b8113b
+vendor/lib/libmm-hdcpmgr.so|e257f03a3566caf493f8a5b91b13a62b77bce03e
+vendor/lib/libwfdhdcpcp.so|94e42b2b05a5cf14196469c04879bcece8adee16
+vendor/lib/libwfdhdcpservice_proprietary.so|f5569d4cb8e6d2d9371b3d07dbaeb421eefdb965
+vendor/lib/libwfdmodulehdcpsession.so|9203f70c2907ad401340fdb8b0a8365b8fa74401
+vendor/lib64/libhdcp1prov.so|ef73aa0bc46fcdd9e36044ca388747e65a5d7d5a
+vendor/lib64/libhdcp2p2prov.so|ca908f56eeb3a95045772ad7d69f33d5270d33b0
+vendor/lib64/libhdcpsrm.so|c56804b6ce290aec2f764942269906d3d02197c9
+vendor/lib64/libmm-hdcpmgr.so|5bd92cfe42803f4ccf3a123fd443d0ca6c5c1544
+vendor/lib64/libwfdhdcpcp.so|5b50a692dd4073a0b192f1f44d3ef909ebe74b5e
