@@ -754,11 +754,11 @@ vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/libthermalclient.so
 vendor/etc/init/init_thermal-engine.rc
 
-# Time - from LA.UM.9.1.r1-08300-SMxxx0.0
+# Time - from LA.UM.9.1.r1-09100-SMxxx0.0
 -vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
-vendor/bin/time_daemon|66fe5b9d033a6479fc65357514883f7cc46f0537
+vendor/bin/time_daemon|2df0bda477c58ae566ec003e876169a5523b7eeb
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
-vendor/lib64/libtime_genoff.so|3f57de1aeb7aa113a0a579cebed85ab4405b9b49
+vendor/lib64/libtime_genoff.so|3002992c0ad3853864ab8560d772992d130ecb59
 
 # Trusted User Interface
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
