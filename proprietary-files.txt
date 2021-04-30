@@ -503,10 +503,10 @@ vendor/lib64/libmlipay.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 
-# Peripheral
-vendor/bin/pm-proxy
-vendor/bin/pm-service
-vendor/lib64/libperipheral_client.so
+# Peripheral - from LA.UM.9.1.r1-09100-SMxxx0.0
+vendor/bin/pm-proxy|dd13e8b611876af819065a9c3a2dfc1ed5b4fae7
+vendor/bin/pm-service|aff002ecdc8470b6e99df022e8eee54625620444
+vendor/lib64/libperipheral_client.so|0820ee76c595691935b7d8896471ea0b172b0f58
 
 # Postprocessing
 vendor/bin/hw/vendor.display.color@1.0-service
