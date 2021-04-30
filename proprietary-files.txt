@@ -46,8 +46,9 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|76b9638aa4be3e0552fd412755d092b35fe64078
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|2ad5ee0df5a51449d8573d229317f108d9aa0ac7
 
-# ANT+
-vendor/lib64/hw/com.dsi.ant@1.0-impl.so
+# ANT+ - from LA.UM.9.1.r1-09100-SMxxx0.0
+vendor/lib/hw/com.dsi.ant@1.0-impl.so|24ee1ad879a442cad9c321cc9e2043fd1651825d
+vendor/lib64/hw/com.dsi.ant@1.0-impl.so|50dcf5396da6ffc865f5cb88decf3bc35d72b32d
 
 # Audio
 vendor/lib/libadiertac.so
@@ -87,7 +88,6 @@ vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|275aeb202001803c6bd6d63
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|d98363a34e2e34b51ff9511141afc41a96a9e088
 vendor/lib/hw/audio.bluetooth_qti.default.so|56d9d4cde6df8b066fc84f509e4dad9fe9c7c255
-vendor/lib/hw/com.dsi.ant@1.0-impl.so|0878e6b855e4b7495214bca404f13de9053b52f6
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|cdc97c1e06642d39d49ec055a86896cf1bd3b4c1
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|61c91107a4032634f1520340e75f015e44fd8dbc
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|1df393fc39d60727becb875fd86716d057bed3b1
