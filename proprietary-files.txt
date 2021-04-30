@@ -186,10 +186,10 @@ vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so|09f4b85830f120db89945069cd3
 vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so|07bf28004086b972367c44703bd0247d7a78faf4
 vendor/lib64/vendor.qti.latency@2.0.so|d84f2e57438b5be937d82a803b0361a14d6c8e82
 
-# ConfigStore - from LA.UM.9.1.r1-07300-SMxxx0.0
-vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|8a64779e1a5df5153f10871cf23c65c3f7f94ae7
+# ConfigStore - from LA.UM.9.1.r1-09100-SMxxx0.0
+vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|e83223d054c004139ec598468fdb22273ed87f23
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede0250585a44b01d351bbc301d7a13cc3d783d
-vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|eb1a99915765fca7add8de87d7c4ef9bf031e155
+vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|919ab996d5593637163e6288e7330caac89227c3
 
 # Display - from LA.UM.9.1.r1-09100-SMxxx0.0
 vendor/lib64/libdisplayqos.so|a263254a5252f4b93237a7972451233578635d2d
