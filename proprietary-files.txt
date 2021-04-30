@@ -294,11 +294,11 @@ widevine.b06:vendor/firmware/widevine.b06|d2b719ed34e99971d7dfd07d35261d56863898
 widevine.b07:vendor/firmware/widevine.b07|7f3a106e9d58a61b7a2e8de2f3b47ec010779038
 widevine.mdt:vendor/firmware/widevine.mdt|b845e63c2736b2413435d325224871c5c1b35a50
 
-# DSP - from LA.UM.9.1.r1-07300-SMxxx0.0
+# DSP - from LA.UM.9.1.r1-09100-SMxxx0.0
 vendor/bin/dspservice|c7809e32581d5c6efac65a3a7689f43526c17bb8
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
-vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|8119845f8e6a24e53bdf286e19f34e9906d64e78
-vendor/lib64/vendor.qti.hardware.dsp@1.0.so|5f30d9c5fff738e6194a36a5b93372fa32ec0471
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so|45244ba636fb2ea6ad7ade9217e109fd2814442c
 
 # Firmware
 vendor/firmware/a615_zap.b00
