@@ -244,6 +244,8 @@ PRODUCT_PACKAGES += \
 # Media
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
+    libcodec2_vndk.vendor \
+    libcodec2_hidl@1.0.vendor \
     libmm-omxcore \
     libOmxAacEnc \
     libOmxAmrEnc \
@@ -349,6 +351,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Dependencies 
 PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
+    ibhidltransport.vendor \
     libhwbinder.vendor
 
 # Speed profile services and wifi-service to reduce RAM and storage.
