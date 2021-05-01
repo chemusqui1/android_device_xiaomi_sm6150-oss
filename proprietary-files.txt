@@ -122,6 +122,13 @@ vendor/lib64/libcdsp_default_listener.so|74d24246b94fe48212f93e0693000489792dfb4
 vendor/lib64/libcdsprpc.so|5723a2985d7c85197952df08da1fc6e90d1d2b5d
 vendor/lib/libcdsp_default_listener.so|7949a156e2fced7a60cb4099cc4ab274c3504d7e
 
+# Certificate Authority - from LA.UM.9.1.r1-09100-SMxxx0.0
+-vendor/app/CACertService/CACertService.apk|b08fa7c9d2faba99547db99df908909dfc0c8e90
+vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
+vendor/lib64/libcacertclient.so|90281ef665d6a66ad7aa0806d97c20866fe1a83d
+vendor/lib64/libjnihelper.so|89136c4d8541cb5b303615b100b4708f7ee2f429
+vendor/lib64/vendor.qti.hardware.cacert@1.0.so|398e5510db4d739de008b7230aa6e688d6c51a8a
+
 # Charger - from LA.UM.9.1.r1-09100-SMxxx0.0
 vendor/bin/hvdcp_opti|99a0fc35ec4ede7fb067013bcab722a8aa2f828f
 vendor/bin/init.qti.chg_policy.sh|6a983698aca9aae4f569f4aaf9a0f4a491770261
