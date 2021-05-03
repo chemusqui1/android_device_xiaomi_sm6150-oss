@@ -572,6 +572,16 @@ vendor/lib/libqmi_csi.so|9064d8610f10875107d9a00c99629a6d0b982707
 vendor/lib/libqmi_encdec.so|212eeb38d8590f760914ff485819253403552874
 vendor/lib/libqmiservices.so|7d2204d571b55959eb88333fd343067b0e1fe24d
 
+# QTEE (Qualcomm Trusted Execution Environment) - from LA.UM.9.1.r1-09100-SMxxx0.0
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|f8dc88c7166ffc2c1d997e7d5f16a8eb69c37cfc
+vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
+vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|9b7ba35a74f4414ba1ec5e8b14d38c6dc7a3ef97
+vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|01f78b7b4d0b196dc735994331b0a9a639a49b36
+vendor/lib64/libGPQTEEC_vendor.so|22bf79c99fffb5a96c5a674e9d002f6472267de1
+vendor/lib64/libGPTEE_vendor.so|d12dd2768dfbbf10a73a81ffc5dea69bd664e13b
+vendor/lib64/libQTEEConnector_vendor.so|62d8993f51e0d4a0c4d6ae2645512ddfc76577f3
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|aa77cf6a6fdf019df4c54daacd5a8e622346ca08
+
 # Radio - from LA.UM.9.1.r1-09100-SMxxx0.0
 etc/permissions/privapp-permissions-qti.xml|3eda27003bad39514039190d0d7eb675ba034cb9
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml|42f4553b61731e56d253766554d4479519cea3ff
