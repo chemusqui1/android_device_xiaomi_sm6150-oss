@@ -1,13 +1,10 @@
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# ACDB loader
-vendor/lib/libacdb-fts.so
-vendor/lib/libacdbloader.so
-vendor/lib/libacdbrtac.so
-vendor/lib64/libacdb-fts.so
-vendor/lib64/libacdbloader.so
-vendor/lib64/libacdbrtac.so
+# ACDB loader - from LA.UM.9.1.r1-09200-SMxxx0.0
+vendor/lib/libacdb-fts.so|c0347a8375b8ccb25b1218644d74da3536c753ed
+vendor/lib/libacdbloader.so|0d2066bac11c303ea6c962a14bcc2461844a2a66
+vendor/lib/libacdbrtac.so|d98c9962122cbfc9686bca7663eadd9a01441a0b
 
 # ADSP - from LA.UM.9.1.r1-09100-SMxxx0.0
 vendor/bin/adsprpcd|c8a45eb83a6d70dcbcc1b8ec574391b49e8ca8b9
