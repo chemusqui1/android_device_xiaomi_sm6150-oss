@@ -119,12 +119,13 @@ vendor/lib64/libbtnv.so|22ac0a0e75e1518183fe2bc2666a6cade378b7ec
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|e0b2052e053de5572448bb81830d8adbe3423f68
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|eea12b9cc470b2293c7013e309bb3fbf89c5e21d
 
-# CDSP - from LA.UM.9.1.r1-08300-SMxxx0.0
-vendor/bin/cdsprpcd|63f7be350d30b9d4181ded5b9cba956bff04439c
+# CDSP - from LA.UM.9.1.r1-09100-SMxxx0.0
+vendor/bin/cdsprpcd|8f541eab74d52bff8d73f7f280e085c4bf706e99
 vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
-vendor/lib64/libcdsp_default_listener.so|74d24246b94fe48212f93e0693000489792dfb43
-vendor/lib64/libcdsprpc.so|5723a2985d7c85197952df08da1fc6e90d1d2b5d
-vendor/lib/libcdsp_default_listener.so|7949a156e2fced7a60cb4099cc4ab274c3504d7e
+vendor/lib/libcdsp_default_listener.so|49dbdd4c8c73a21619569f3723a71b3467e73e75
+vendor/lib/libcdsprpc.so|2b0ad6f94d63712a1e5719e0204f30446cce7cfb
+vendor/lib64/libcdsp_default_listener.so|10907139f8fe737cbffba80947082d83e1c019d8
+vendor/lib64/libcdsprpc.so|b7908cc133befa774849005fe010e1979a7f0584
 
 # Certificate Authority - from LA.UM.9.1.r1-09100-SMxxx0.0
 -vendor/app/CACertService/CACertService.apk|b08fa7c9d2faba99547db99df908909dfc0c8e90
