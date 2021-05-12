@@ -25,20 +25,22 @@ vendor/lib64/libsdsprpc.so|f2a1d1ecc7191176d4dc061c484d021d78257a03
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
 vendor/lib/rfsa/adsp/dirac_resource.dar
 vendor/lib/rfsa/adsp/libdirac-capiv2.so
-vendor/lib/rfsa/adsp/libVC1Dec.so
-vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
-vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libcamera_nn_skel.so
-vendor/lib/rfsa/adsp/libcvpdsp_skel.so
-vendor/lib/rfsa/adsp/libdspCV_skel.so
-vendor/lib/rfsa/adsp/libdsp_streamer_add_constant.so
-vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
-vendor/lib/rfsa/adsp/libdsp_streamer_skel.so
-vendor/lib/rfsa/adsp/libfastcvadsp.so
-vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
-vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
-vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
-vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
+
+# ADSP Modules - from LA.UM.9.1.r1-09200-SMxxx0.0
+vendor/lib/rfsa/adsp/libVC1Dec.so|732ede3ede9e6e1b09c439156f62a07d8fa0ee3e
+vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so|eff059c5a29a44d205bd60ad24aecc46416e939e
+vendor/lib/rfsa/adsp/libapps_mem_heap.so|1cdac354c585c0d236d77b0888ebd5894b333326
+vendor/lib/rfsa/adsp/libcvpdsp_skel.so|58cbb97212073cf7e4780c6d77a7628c3ee845bd
+vendor/lib/rfsa/adsp/libdspCV_skel.so|63fc368b17e1b112c8824cd245c3a4dec17d13e4
+vendor/lib/rfsa/adsp/libdsp_streamer_add_constant.so|2ccb3f4f32a73ee6c14e1b4697f449561ab8dc18
+vendor/lib/rfsa/adsp/libdsp_streamer_binning.so|00eb6acc7c864371b932f95ff98e98351c6508d8
+vendor/lib/rfsa/adsp/libdsp_streamer_skel.so|9cbf4d3c72b3e989c07e8b8f37c03f3b78e91f3d
+vendor/lib/rfsa/adsp/libfastcvadsp.so|cb6849db333972f3891973d052106dfc95f88c90
+vendor/lib/rfsa/adsp/libfastcvdsp_skel.so|48fef93a3d7801eb8bd7a9b2c38d98b45801d21f
+vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|9e9dbfa1b565a6cf93006c1f87d5ee57d173fd23
+vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
+vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
 
 # Alarm - from LA.UM.9.1.r1-09100-SMxxx0.0
 -product/app/PowerOffAlarm/PowerOffAlarm.apk|bc906abd03e4a243201dde626b6580fd8a4f73ce
