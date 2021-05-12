@@ -423,14 +423,16 @@ vendor/lib64/libqtikeymaster4.so|69018deb5c3025f5641e1adaf452cc0687ed11ba
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.sm6150.so
-vendor/lib/libadpcmdec.so
-vendor/lib/libgcs-calwrapper.so
-vendor/lib/libgcs-ipc.so
-vendor/lib/libgcs-osal.so
-vendor/lib/libgcs.so
-vendor/lib/liblistensoundmodel2.so
 vendor/lib/librice.so
-vendor/lib/libsmwrapper.so
+
+# Listen - from LA.UM.9.1.r1-09200-SMxxx0.0
+vendor/lib/libadpcmdec.so|491fedbdcf9a395340ce4142c277156c0056bcf8
+vendor/lib/libgcs-calwrapper.so|9becf53608f385d52a3086e9b7f1a4559cbb01d3
+vendor/lib/libgcs-ipc.so|bca9720e08b80204f0f5d9eef33590c21bff453a
+vendor/lib/libgcs-osal.so|bde00f18f820bef78e6096c84837be6909181348
+vendor/lib/libgcs.so|5d0ecae0fd8bfe732c56bf0b3f5998e01512e3e1
+vendor/lib/liblistensoundmodel2.so|89e137570be789e5c4588bac1b0c7413868ef357
+vendor/lib/libsmwrapper.so|6bce929b6a1ddb1f616635b87d5fcbc53d3c4a9e
 
 # Media - from LA.UM.9.1.r1-09100-SMxxx0.0
 vendor/bin/hw/vendor.qti.media.c2@1.0-service|711fc86b6a7768ba844155b61debdda4e291767e
