@@ -51,21 +51,15 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so|2ad5ee0df5a51449d8573d229317f108d9
 vendor/lib/hw/com.dsi.ant@1.0-impl.so|24ee1ad879a442cad9c321cc9e2043fd1651825d
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|50dcf5396da6ffc865f5cb88decf3bc35d72b32d
 
-# Audio
-vendor/lib/libadiertac.so
-vendor/lib/libaudcal.so
-vendor/lib/libaudioparsers.so
-vendor/lib/libdrc.so
-vendor/lib/libhdmipassthru.so
-vendor/lib/libqtigef.so
-vendor/lib/libssrec.so
-vendor/lib/libsurround_3mic_proc.so
-vendor/lib64/libadiertac.so
-vendor/lib64/libaudcal.so
-vendor/lib64/libaudioparsers.so
-vendor/lib64/libhdmipassthru.so
-vendor/lib64/libqtigef.so
-vendor/lib64/libssrec.so
+# Audio - from LA.UM.9.1.r1-09200-SMxxx0.0
+vendor/lib/libadiertac.so|9b6ffa75bbd3692a72c3c4f94a08e96b52e9d6e7
+vendor/lib/libaudcal.so|54aa839cd87e05dbb61a31a049e2ed2dc1808ef5
+vendor/lib/libaudioparsers.so|b984b7f0cab04148ee5aa18aab12dbd3835e66c1
+vendor/lib/libdrc.so|c5aa24533d6dd08c40bc757eddeb45e3775b0265
+vendor/lib/libhdmipassthru.so|0ffc905b4b2e1e3cc8c439e9916a1262490505de
+vendor/lib/libqtigef.so|1278ff3ec539b13db37c0ea3e4577a9b07559885
+vendor/lib/libssrec.so|a7240703f7987b50155807cbaf1d6e6d073cb670
+vendor/lib/libsurround_3mic_proc.so|491a5215660ad0b5acd14e6b28db7e26739019f6
 
 # Audio FX modules
 system_ext/etc/permissions/audiosphere.xml
