@@ -511,6 +511,7 @@ vendor/lib/libmmosal.so|2d6f053f6aca1abb5f30d49cd80db5f9aafab426
 vendor/lib/libqcodec2.so|099052ac9a36bda42430d46c4461bf7292244f63
 vendor/lib/libswvdec.so|470a275b120633d7a0d756a7d30a817b25d2e54e
 vendor/lib/libvppclient.so|f34a69c65e289237891d82d99e1ce7e6efb2b6c9
+vendor/lib/libvpphcp.so|91bfde32023ba6c65d80a4ec56c33bbc972f1251
 vendor/lib/libvpphvx.so|32f90b9809ea221f0856f0a3563511cf54d7e9f8
 vendor/lib/libvppimmotion.so|d3be671eb77d539cd6668df9b6ac4f1ed23a7232
 vendor/lib/libvpplibrary.so|521e6dd4845acc2f897644808bce52c07849c3ec
@@ -541,6 +542,7 @@ vendor/lib64/libmmosal.so|204713e0ca5b03e9cf592c280148fdc21e0ed67f
 vendor/lib64/libqcodec2.so|384a1b19145abe1b19bc4979d8bec168a346cf4f
 vendor/lib64/libswvdec.so|a823163fe524591df0a0fb242df84fdbf58f783a
 vendor/lib64/libvppclient.so|9aa7961f1a4a1852b3f58fed8233b0d643a6df19
+vendor/lib64/libvpphcp.so|6a2580bde806136a150b12cd67b287c8f6709f85
 vendor/lib64/libvpphvx.so|449c9d5448081aed1191c0478cd1e236eabf2a26
 vendor/lib64/libvppimmotion.so|b3df461f2e142868d6254fc244affecbbd8d9912
 vendor/lib64/libvpplibrary.so|5da45c57405856cda96ae3dfe37d5a9744d541e8
