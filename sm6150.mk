@@ -65,10 +65,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml \
     $(LOCAL_PATH)/configs/component-overrides_qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/component-overrides.xml
 
-# AID/fs configs
-PRODUCT_PACKAGES += \
-    fs_config_files
-
 # ATRACE_HAL
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
@@ -132,12 +128,6 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     libxml2
 
-# CNE
-PRODUCT_PACKAGES += \
-    cneapiclient \
-    com.quicinc.cne \
-    services-ext
-
 # Config Store
 PRODUCT_PACKAGES += \
     disable_configstore
@@ -155,7 +145,7 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     gralloc.sm6150 \
     hwcomposer.sm6150 \
-    libdisplayconfig \
+    libdisplayconfig.qti \
     libtinyxml \
     libvulkan \
     memtrack.sm6150 \
@@ -439,11 +429,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libavservices_minijail \
     libavservices_minijail.vendor \
-    libdisplayconfig.vendor \
-    libdisplayconfig.qti \
+    libdisplayconfig.qti.vendor \
     libnl \
     libqdMetaData \
-    libqdMetaData.system \
     libqdMetaData.vendor \
     libwfdaac_vendor
 
