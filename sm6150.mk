@@ -76,10 +76,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
     android.hardware.soundtrigger@2.2-impl \
     audio.a2dp.default \
-    audio.primary.sm6150:32 \
-    audio.r_submix.default \
-    audio.usb.default \
-    liba2dpoffload \
     libaudio-resampler \
     libhdmiedid \
     libhfp \
