@@ -126,8 +126,12 @@ PRODUCT_PACKAGES += \
     libc++demangle_vendor \
     libdng_sdk.vendor \
     libgui_vendor \
-    libxml2 \
+    libxml2
+
+ifeq ($(LINEAGE_GAPPS), true)
+PRODUCT_PACKAGES += \
     GCamGo
+endif
 
 # Config Store
 PRODUCT_PACKAGES += \
