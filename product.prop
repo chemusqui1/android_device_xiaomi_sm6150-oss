@@ -1,13 +1,6 @@
 # Audio
 ro.config.media_vol_default=10
 
-# Better Scrolling
-windowsmgr.max_events_per_sec=150
-ro.min_pointer_dur=8
-ro.max.fling_velocity=12000
-ro.min.fling_velocity=8000
-persist.sys.scrollingcache=3 
-
 # Bluetooth
 persist.bluetooth.bqr.event_mask=14
 persist.bluetooth.bqr.min_interval_ms=500
