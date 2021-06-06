@@ -123,11 +123,6 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     libxml2
 
-ifeq ($(LINEAGE_GAPPS), true)
-PRODUCT_PACKAGES += \
-    GCamGo
-endif
-
 # Config Store
 PRODUCT_PACKAGES += \
     disable_configstore
