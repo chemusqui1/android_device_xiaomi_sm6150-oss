@@ -28,4 +28,7 @@
 
     <!-- Adaptive Charging -->
     <bool name="config_supportAdaptiveCharging">true</bool>
+
+    <!-- For Ultra Power Saving -->
+    <bool name="config_supportUltraPowerSaving">true</bool>
 </resources>
