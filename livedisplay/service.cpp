@@ -14,28 +14,25 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vendor.lineage.livedisplay@2.1-service.xiaomi_sm6150"
+#define LOG_TAG "vendor.lineage.livedisplay@2.0-service.xiaomi_sm6150"
 
 #include <android-base/logging.h>
 #include <binder/ProcessState.h>
 #include <hidl/HidlTransportSupport.h>
-#include <livedisplay/sdm/PictureAdjustment.h>
 
 #include "AntiFlicker.h"
 #include "SunlightEnhancement.h"
 #include "livedisplay/sdm/SDMController.h"
-#include <vendor/lineage/livedisplay/2.1/IPictureAdjustment.h>
+#include <vendor/lineage/livedisplay/2.0/IPictureAdjustment.h>
 
 using android::OK;
 using android::sp;
 using android::status_t;
 
-using ::vendor::lineage::livedisplay::V2_0::sdm::PictureAdjustment;
-using ::vendor::lineage::livedisplay::V2_0::sdm::SDMController;
-using ::vendor::lineage::livedisplay::V2_1::IAntiFlicker;
-using ::vendor::lineage::livedisplay::V2_1::ISunlightEnhancement;
-using ::vendor::lineage::livedisplay::V2_1::implementation::AntiFlicker;
-using ::vendor::lineage::livedisplay::V2_1::implementation::SunlightEnhancement;
+using ::vendor::lineage::livedisplay::V2_0::IAntiFlicker;
+using ::vendor::lineage::livedisplay::V2_0::ISunlightEnhancement;
+using ::vendor::lineage::livedisplay::V2_0::implementation::AntiFlicker;
+using ::vendor::lineage::livedisplay::V2_0::implementation::SunlightEnhancement;
 
 int main() {
     status_t status = OK;
@@ -43,7 +40,6 @@ int main() {
     
     sp<AntiFlicker> af = new AntiFlicker();
     sp<SunlightEnhancement> se = new SunlightEnhancement();
-    sp<PictureAdjustment> pa = new PictureAdjustment(controller);
 
     android::hardware::configureRpcThreadpool(1, true /*callerWillJoin*/);
 
@@ -51,14 +47,6 @@ int main() {
     status = af->registerAsService();
     if (status != OK) {
         LOG(ERROR) << "Could not register service for LiveDisplay HAL AntiFlicker Iface ("
-                   << status << ")";
-        return 1;
-    }
-    
-    // PictureAdjustment service
-    status = pa->registerAsService();
-    if (status != OK) {
-        LOG(ERROR) << "Could not register service for LiveDisplay HAL PictureAdjustment Iface ("
                    << status << ")";
         return 1;
     }
