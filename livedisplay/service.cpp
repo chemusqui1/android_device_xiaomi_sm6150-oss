@@ -23,24 +23,22 @@
 #include "AntiFlicker.h"
 #include "SunlightEnhancement.h"
 #include "livedisplay/sdm/SDMController.h"
-#include <vendor/lineage/livedisplay/2.0/IPictureAdjustment.h>
 
 using android::OK;
 using android::sp;
 using android::status_t;
 
-using ::vendor::lineage::livedisplay::V2_0::IAntiFlicker;
 using ::vendor::lineage::livedisplay::V2_0::ISunlightEnhancement;
-using ::vendor::lineage::livedisplay::V2_0::implementation::AntiFlicker;
 using ::vendor::lineage::livedisplay::V2_0::implementation::SunlightEnhancement;
+using ::vendor::lineage::livedisplay::V2_0::IAntiFlicker;
+using ::vendor::lineage::livedisplay::V2_0::implementation::AntiFlicker;
+using ::vendor::lineage::livedisplay::V2_0::sdm::SDMController;
 
 int main() {
     status_t status = OK;
     std::shared_ptr<SDMController> controller = std::make_shared<SDMController>();
-    
     sp<AntiFlicker> af = new AntiFlicker();
     sp<SunlightEnhancement> se = new SunlightEnhancement();
-
     android::hardware::configureRpcThreadpool(1, true /*callerWillJoin*/);
 
     // AntiFlicker service
