@@ -126,8 +126,7 @@ PRODUCT_PACKAGES += \
     libc++demangle_vendor \
     libdng_sdk.vendor \
     libgui_vendor \
-    libxml2 \
-    GCamBSG
+    libxml2
 
 # Config Store
 PRODUCT_PACKAGES += \
