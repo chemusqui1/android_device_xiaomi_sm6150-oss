@@ -4,4 +4,4 @@ Common device tree for Xiaomi SM6150 based devices
 ==============
 
 #### Proprietary-files.txt
-All unpinned blobs are extracted from [miui_TUCANA_21.6.16_8c8b32fc26_11.0](https://bigota.d.miui.com/21.6.16/miui_TUCANA_21.6.16_8c8b32fc26_11.0.zip).
+All unpinned blobs are extracted from [miui_TUCANA_21.6.23_4b13214c68_11.0](https://bigota.d.miui.com/21.6.23/miui_TUCANA_21.6.23_4b13214c68_11.0.zip).
